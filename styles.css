@@ -1,22 +1,40 @@
 html {
-    background-image: linear-gradient(to bottom right, #4242BD, #6867CB);
+    background-image: linear-gradient(to right, #AAE3FD, #DBF3FE);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
-.navbar {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #78BFC7;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
 }
 
-.navbar-link {
-    display: inline;
-    background-color: #282873;
+li.navbar-link {
+    float: left;
+    background-color: #1457c4;
+    padding: 1%;
 }
 
-.active {
-    background-color: #42BD42;
+li.active {
+    background-color: #14c440;
+}
+
+li.navbar-link a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-content {
+    position: absolute;
+    top: 5%;
 }
