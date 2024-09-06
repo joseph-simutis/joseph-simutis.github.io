@@ -39,3 +39,7 @@ li.navbar-link a {
     top: 5%;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.main-content .header {
+    font-family: Arial, Helvetica, sans-serif;
+}
