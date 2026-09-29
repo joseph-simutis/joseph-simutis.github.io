@@ -10,3 +10,11 @@ ul.navbar {
     overflow: hidden;
     background-color: skyblue;
 }
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    text-decoration: none;
+}
