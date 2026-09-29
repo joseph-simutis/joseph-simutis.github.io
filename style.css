@@ -17,4 +17,12 @@ ul.navbar li {
 
 ul.navbar li a {
     text-decoration: none;
+    color: darkblue;
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+}
+
+ul.navbar li a:hover {
+    background-color: cornflowerblue;
 }
